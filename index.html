@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals on wheels</title>
+    <link rel="stylesheet" media="screen and  (max-width: 1482px)" href="phone.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 500px)" href="sphone.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500;600">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap">
+    <!-- <script src="https://cdn.tailwindcss.com"></script>  -->
+
+
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="imgnew.png" alt="MEALS ON WHEELSs">
+        </div>
+
+        <ul>
+
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#offer-center">Offers</a></li>
+            <li class="item"><a href="#contact-box">Contact Us</a></li>
+            <li class="item"><a href="index/order.html">Order Now</a></li>
+        </ul>
+
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary1">
+            MealsOnWheels
+        </h1>
+        <p class="pp">We make chinese,mexican,italian,punjabi and many more food meals!</p>
+        <p class="pp">Our food is 100%veg and our kitchens are hygienic!</p>
+
+        <!-- <button class="btn">Order Now</button> -->
+    </section>
+
+    <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+
+        <div id="services">
+            <div class="box">
+                <img src="img2.jpg" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">We do food catering for crowd of 50-200 people! 3 types of starters, 8 types of dishes
+                    and 2 types of deserts will be included. Contact us for more !</p>
+            </div>
+
+            <div class="box">
+                <img src="img4.jpg" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">We accept bulk orders also! Sudden bulk orders are also accepted! </p>
+            </div>
+
+            <div class="box">
+                <img src="img3.jpg" alt="">
+                <h2 class="h-secondary center">Super Fast Delivery</h2>
+                <p class="center">We take food orders through various platforms such as our website, zomato, swiggy etc!
+                    Food orders are accepted from 12 noon to 11:30pm.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <!-- <hr> -->
+        <div id="clients">
+            <div class="client-item">
+                <img src="https://taj.tajhotels.com/content/dam/tajhotels/logos/taj-logos/taj-transparent-logo.png"
+                    alt="">
+                <img src="https://www.weddingplz.com/images/portfolio/main/3/14059/Trident-Hotel-3073-1-weddingplz.jpg"
+                    alt="">
+                <img src="https://www.eventfaqs.com/uploads/News/Content/lead-image127.jpg" alt="">
+                <img src="http://ifashops.com/wp-content/uploads/2016/03/tata-logo-HD.jpg" alt="">
+                <img src="https://latteluxurynews.com/wp-content/uploads/2019/03/Oberoi-HotelsResorts-logo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h1 class="h-primary center" id="offer-center">Offers</h1>
+        <div id="offers">
+            <div id="offers-box">
+
+                <div>
+                    <h3>Sign up and Get discount of Rs50 on a order!</h3>
+                </div>
+
+                <div>
+                    <h3>Get 30% off on orders above Rs1099!</h3>
+                </div>
+
+                <div>
+                    <h3>Get 10% off by using icici bank creditcard!</h3>
+                </div>
+
+                <div>
+                    <h3>Get flat discount of Rs55 on using axis bank creditcard!</h3>
+                </div>
+
+                <div>
+                    <h3>Use code TRYNEW and get Rs60 off!</h3>
+                </div>
+
+                <div>
+                    <h3>Use code BULK and get Rs250 off above Rs1499!</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form onsubmit="myfunc(event)" action="index/submitted.html" target="_blank">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="number">Phone Number: </label>
+                    <input type="text" name="number" id="number" placeholder="Enter Your Phone Number" required>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="msg">Message Us: </label>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Type your message"></textarea>
+
+                </div>
+
+                <div class="form-group">
+                    <!-- <label for="msg">Message Us: </label> -->
+                    <button id="btns">Submit Your Form</button>
+
+                </div>
+
+
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="center">
+            Copyright &copy; 2022 MealsOnWheels. All Rights Reserved
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+<script type="text/javascript">
+    function myfunc(event) {
+
+
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var number = document.getElementById("number").value;
+        var message = document.getElementById("message").value;
+
+
+
+
+        localStorage.setItem('name', name);
+        localStorage.setItem('email', email);
+        localStorage.setItem('number', number);
+        localStorage.setItem('message', message);
+
+
+    }
+</script>
+
+</html>
