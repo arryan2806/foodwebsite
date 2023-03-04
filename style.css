@@ -121,7 +121,7 @@ html{
     font-family: 'Bree Serif', serif;
     /* background-color: grey; */
     color: black;
-    font-size: 3.2rem;
+    font-size: 3.8rem;
     padding: 70px;
     opacity: 1;
 
@@ -289,5 +289,7 @@ label{
     padding: 12px;
     margin: 2px;
 }
+
+
 
 
