@@ -411,3 +411,17 @@ function addAddress() {
         alert("Address not added")
     }
 }
+
+document.getElementById('add-offer').addEventListener('click', addOffer);
+
+
+
+function addOffer() {
+    var offer = prompt('Enter offer name', '');
+    if (offer) {
+        document.getElementById('add-offer').innerText = ' ' + offer;
+    }
+    else {
+        alert("offer not added")
+    }
+}

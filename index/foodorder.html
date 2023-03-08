@@ -38,8 +38,7 @@
                 </div>
 
                 <div class="util">
-                    <i class="fa fa-search">Search</i>
-                    <i class="fa fa-tags">Offers</i>
+                    <i class="fa fa-tags" id="add-offer">Offers</i>
                     <i class="fa fa-cart-plus" id="cart-plus"> 0 Items</i>
                 </div>
             </div>
@@ -90,7 +89,9 @@
 
 
                 <div class="btn-box">
-                    <button class="cart-btn">Checkout</button>
+                    <form action="/ordered.html" target="_blank">
+                        <button class="cart-btn">Order</button>
+                    </form>
                 </div>
 
             </div>
@@ -117,7 +118,9 @@
                 <p id="total-item">Total Item : 5</p>
                 <p id="total-price"></p>
                 <p id="delivery">Free Delivery on $ 40</p>
-                <button class="cart-btn">Checkout</button>
+                <form action="/ordered.html" target="_blank">
+                    <button class="cart-btn">Order</button>
+                </form>
             </div>
         </div>
 
@@ -162,7 +165,7 @@
                 <p>Home</p>
                 <p>Cart</p>
                 <p>offers</p>
-                <p>orders</p>
+                <p>Orders</p>
             </div>
         </div>
         <script src="/index.js" type="module">
