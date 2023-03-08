@@ -204,7 +204,7 @@ const foodItem = [
     {
         id: 23,
         name: 'Butter Masala Dosa',
-        category: 'south indian',
+        category: 'south-indian',
         rating: 4.3,
         price: 18,
         img: '/dosa1.jpeg',
@@ -213,7 +213,7 @@ const foodItem = [
     {
         id: 24,
         name: 'Idli',
-        category: 'south indian',
+        category: 'south-indian',
         rating: 4.3,
         price: 20,
         img: '/idli.jpeg',
@@ -222,7 +222,7 @@ const foodItem = [
     {
         id: 25,
         name: 'Onion Uttapam',
-        category: 'south indian',
+        category: 'south-indian',
         rating: 4.3,
         price: 15,
         img: '/uttapa1.jpeg',
@@ -231,7 +231,7 @@ const foodItem = [
     {
         id: 26,
         name: 'Plain Dosa',
-        category: 'south indian',
+        category: 'south-indian',
         rating: 4.3,
         price: 40,
         img: '/dosa2.jpeg',
@@ -240,7 +240,7 @@ const foodItem = [
     {
         id: 27,
         name: 'Rava Uttapam',
-        category: 'south indian',
+        category: 'south-indian',
         rating: 4.3,
         price: 25,
         img: '/uttapa2.jpeg',

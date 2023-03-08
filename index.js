@@ -11,7 +11,7 @@ function displayItems() {
     const biryaniData = foodItem.filter((item) => item.category == 'biryani');
     const PaneerData = foodItem.filter((item) => item.category == 'paneer');
     const chineseData = foodItem.filter((item) => item.category == 'chinese');
-    const southData = foodItem.filter((item) => item.category == 'south indian');
+    const southData = foodItem.filter((item) => item.category == 'south-indian');
     biryaniData.map(item => {
 
         var itemCard = document.createElement('div');
